@@ -1,4 +1,7 @@
-ls = [4,5,6]
-tup = (6,7)
-x = list( tup )
-print(x)
+a= 3
+b = 4
+
+a *= 2
+b -= a
+
+print(a >b and b >0)
