@@ -10,7 +10,17 @@ elif score >= 75 <= 89:
     print("Grade A")
 elif score >= 60 <=74:
     print("Grade B")
-elif score == 100:
-    print("Your great")    
 else: 
-    print("Grade C")            
+    print("Grade C")  
+    
+    
+#####################################################   
+#language = 'java'
+#if language == 'Python':
+#    print ('Language is python')
+#elif language == 'java':
+ #   print('Language is java')
+#elif language == 'sql':
+#    print('Language is sql')
+#else:
+#    print('no match')         
