@@ -1,6 +1,6 @@
-mess = 'hello'
-print(mess)
-name = 'vignesh\'s reddy'
-print (len(name)) 
-print(name[10:2])
+temp  = float(input("Enter temperature in celius :"))
+
+fahrenheit = (temp * 9/5) + 32
+
+print(f"{temp}degrees celius is equal to {fahrenheit} degrees fahrenheit")
 
