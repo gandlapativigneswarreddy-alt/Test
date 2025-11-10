@@ -1,9 +1,12 @@
 #defualt argument 
-def wish(name,greatings="hello"):
-    return(name+","+greatings)
+def greet(name,msg="welecome bhai",**loc):
+    print(name,msg)
+    print(**loc)
+    
+    for k,v in loc.items():
+        print(k,":",v)
 
-wish1 =wish("bob")
-wish2 =wish("mahi","hi")
-print(wish1)
-print(wish2) 
+greet(name = "vignesh",msg ="Good morning",loc ="hyd")
+    
+
     
