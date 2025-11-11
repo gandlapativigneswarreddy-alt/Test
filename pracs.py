@@ -1,9 +1,11 @@
-a = input("Enter your age : ")
-a = int(a)
-if a >= 18:
-    print("Eligible for vote ")
+a = int(input("Enter number :")) 
+
+if a > 0:
+    print("Positive")
+elif a < 0:
+    print("Negative") 
 else:
-    print("invalid")   
+    print("Zero")    
     
     
     

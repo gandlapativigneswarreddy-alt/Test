@@ -12,16 +12,26 @@
 #str1,str2=str2,str1
 #print("str1 :",str1)
 #print("str2 :",str2)
-a = input("enter the variable (a) :")
+#a = input("enter the variable (a) :")
 
-b =  input("enter the variable (b) :")
+#b =  input("enter the variable (b) :")
 
-print (f"original values : a = {a}, b = {b}")
+#print (f"original values : a = {a}, b = {b}")
 
-c = a 
+#c = a 
 
-a = b 
+#a = b 
 
-b = c
+#b = c
 
-print(f"Swapped values : a = {a}, b = {b}")
+#print(f"Swapped values : a = {a}, b = {b}")
+
+a = 5
+
+b = 15
+
+a,b = b,a
+
+print("After swapping:")
+print("a = ",a)
+print("b = ",b)
